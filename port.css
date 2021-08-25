@@ -1,0 +1,2465 @@
+
+.main{
+    width: 100%;
+    height: 500px;
+    margin: 0px;
+}
+.top{
+    margin:0px 0px 0px 0px;
+    width: 100%;
+    text-transform: capitalize;
+    position: fixed;
+}
+.sticky{
+  top: 0px;
+  background-color: #3b3a3a;
+  z-index: 444;
+}
+.fa-bars{
+  font-size: 30px;
+  color:greenyellow;
+  position: relative;
+  right: 0px;
+  display: none;
+}
+.name{
+    float: left;
+    font-size: 30px;
+    text-transform: capitalize;
+    margin-left: 20px;
+    color: #837c7c;
+    font-family: 'Prata', serif;
+    font-family: 'STIX Two Text', serif;
+}
+.right{
+    float: right;
+    margin: 10px 72px;
+}
+.details{
+    display: inline-block;
+    font-size: 20px;
+    margin: 0 20px;
+    color: #837c7c;
+    font-family: 'Prata', serif;
+    font-family: 'STIX Two Text', serif;
+    cursor: pointer;
+}
+
+.details:hover{
+    color: #c72640;
+}
+.box {
+  position: relative;
+  width: 50px;
+  border-radius: 25px;
+  height: 20px;
+  box-shadow: 0 0 3px #707070 inset;
+  cursor: pointer;
+  transition:all .2s ease-in-out;
+  }
+  .fa-sun-o{
+  position: absolute;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    top: 0px;
+    right: 0px;
+    color:#921b2f;
+    border-radius: 50%;
+    box-shadow: inset -1px -3px 2px 0px #707070;
+    font-size: 17px;
+    transition:all .3s ease-in-out;
+    width:22px;
+    height:22px;
+    background-color:#fff;
+  }
+  .dark{
+    color: white !important;
+  }
+  .bdark{
+    background-color: #131313 !important;
+  }
+
+  .fa-moon-o{
+    color:#921b2f;
+    border-radius: 50%;
+    box-shadow: 0px 0px 1px 0px #fff7f7;
+    font-size: 17px;
+    transition:all .3s ease-in-out;
+    width:22px;
+    height:22px;
+    background-color:rgb(0, 0, 0);
+    position: absolute;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    top: 0px;
+    left: 0px;
+  }
+   
+  .name2{
+      margin-top: 100px;
+      float: left;
+      width: 40%;
+      margin-left: 20px;
+      font-family: 'Prata', serif;
+      font-family: 'STIX Two Text', serif;
+     
+  }
+  .intro{
+      font-size: 40px;
+      color: #837c7c;
+      font-weight: 800;
+      text-transform: capitalize;
+
+
+  }
+  .git span{
+      font-size: 20px;
+      color: #837c7c;
+      text-transform: capitalize;
+
+  }
+  .fa-github{
+      font-size: 20px;
+      color:#c72640;
+      margin-right: 10px;
+  }
+  .fa-github:hover{
+    color: #921b2f;
+    cursor: pointer;
+  }
+  #gmail{
+    font-size: 20px;
+    color:#c72640;
+    margin-right: 10px;
+  }
+  .fa-envelope:hover{
+    color: #921b2f;
+    cursor: pointer;
+  }
+  .gmail span{
+    font-size: 20px;
+    color: #837c7c;
+  }
+  .front{
+      font-size: 20px;
+      color: #636060;
+      text-transform: capitalize;
+      font-weight: 500;
+
+
+  }
+  .btncon{
+    width: 200px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    font-size: 17px;
+    font-weight: 600;
+    margin: 20px 0px 0px 40px;
+    color: white;
+    cursor: pointer;
+    background-color: #c72640;
+    text-transform: capitalize;
+  } 
+  .btncon:hover{
+    background-color: #921b2f;
+    
+  }
+  .btncon:focus{
+    outline: none;
+  }
+  .pic{
+    float: right;
+    width: 40%;
+    
+  }
+  .me{
+    width: 350px;
+    height: 400px;
+    margin-top: 80px;  
+    border-radius: 20%;
+    opacity: .8;
+  }
+  .me:hover{
+    opacity: 1;
+  }
+  .int{
+    font-size: 20px; 
+     text-align: center;
+     color: #636060;
+      text-transform: capitalize;
+      font-weight: 600
+ }
+  .about{
+    margin-top: 100px;
+    width: 100%;
+    height: 300px;
+    font-family: 'Prata', serif;
+    font-family: 'STIX Two Text', serif;
+  
+  
+  }
+  .parag{
+    font-size: 30px;
+      color: #636060;
+      text-transform: capitalize;
+      font-weight: 600;
+      text-align: center;
+ 
+  }
+  .skills{
+   width: 100%;
+   height: 600px;
+  }
+  .detail{
+    font-size: 20px;
+    color: #837c7c;
+    width: 70%;
+    margin-left: 10px;
+    text-transform: capitalize;
+  }
+  
+  .skill{
+    font-size: 30px;
+    color: #636060;
+    text-transform: capitalize;
+    font-weight: 600;
+    text-align: center;
+  }
+  .skill2{
+    font-size: 20px;
+    color: #636060;
+    text-transform: capitalize;
+    font-weight: 600;
+    text-align: center;
+  }
+  .myskills{
+    width: 100%;
+    height: 400px;
+    text-align: center;
+    margin-top: 50px;
+
+  }
+  .ownskills{
+    float: left;
+    width: 31%;
+    height: 350px;
+    margin: 0px 10px 0px 12px;
+    font-size: 20px;
+    color: #636060;
+    text-transform: capitalize;
+    font-weight: 600;
+    box-sizing: border-box;
+  }
+  .fa-code{
+    font-size: 22px;
+    display: inline;
+  }
+  #arrowdown{
+    font-size: 20px;
+    color: #636060;
+    margin-left: 9px;
+    display: none;
+    
+  }
+  #arrowright{
+    font-size: 20px;
+    color: #636060;
+    margin-left: 9px;
+   
+    
+  }
+  #arrowdown2{
+    font-size: 20px;
+    color: #636060;
+    margin-left: 9px;
+    display: none;
+    
+  }
+  #arrowright2{
+    font-size: 20px;
+    color: #636060;
+    margin-left: 9px;
+   
+    
+  }
+  #arrowdown3{
+    font-size: 20px;
+    color: #636060;
+    margin-left: 9px;
+    display: none;
+    
+  }
+  #arrowright3{
+    font-size: 20px;
+    color: #636060;
+    margin-left: 9px;
+   
+    
+  }
+  .detskill{
+    display: block;
+    margin-bottom: 42px;
+    cursor: pointer;
+  }
+
+.design{
+  width: 30px ;
+  height: 30px;
+}
+.skillcircle{
+  width: 120px;
+  height: 120px;
+  display: inline-flex;
+  margin: 10px 0 0 10px;
+  
+
+}
+.allcircle{
+  display: none;
+}
+.allcircle2{
+  display: none;
+}
+#allcircle3{
+  display:none;
+}
+.skillcircle2{
+  width: 120px;
+  height: 120px;
+  display: inline-flex;
+  margin: 10px 0 0 10px;
+  
+
+}
+.skillcircle3{
+  width: 120px;
+  height: 120px;
+  display: inline-flex;
+  margin: 10px 0 0 10px;
+  
+
+}
+.outer{
+  width: 58px;
+  height: 58px;
+  border-radius: 50%;
+  position: relative;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: -1px 3px 10px -1px rgb(0 0 0 / 15%), 6px 6px 10px -1px rgb(255 255 255 / 70%);
+
+}
+
+.number{
+  color:black;
+  font-size: 17px;
+  font-weight: 500;
+  color: #636060;
+}
+svg{
+  position: absolute;
+  top: -51px;
+  left: -50px;
+}
+.circle1 ,.circle2,.circle3,.circle4,.circle5,.circle6,.circle7 ,.circle8,.circle9,.circle10,.circle11,.circle12{
+  fill: none;
+  stroke:#921b2f;
+  stroke-width: 6px;
+  stroke-dasharray: 472;
+  stroke-dashoffset:472 ;
+}
+.circle1{
+  animation: anim1 1s linear forwards;
+
+}
+.circle2{
+  animation: anim2 1s linear forwards;
+
+}
+.circle3{
+  animation: anim3 1s linear forwards;
+
+}
+.circle4{
+  animation: anim4 1s linear forwards;
+
+}
+.circle5{
+  animation: anim5 1s linear forwards;
+
+}
+.circle6{
+  animation: anim6 1s linear forwards;
+
+}
+.circle7{
+  animation: anim7 1s linear forwards;
+
+}
+.circle8{
+  animation: anim8 1s linear forwards;
+
+}
+.circle9{
+  animation: anim9 1s linear forwards;
+
+}
+.circle10{
+  animation: anim10 1s linear forwards;
+
+}
+.circle11{
+  animation: anim11 1s linear forwards;
+
+}
+.circle12{
+  animation: anim12 1s linear forwards;
+
+}
+
+.skillname{
+  font-size: 17px;
+  position: absolute;
+  top: 60px;
+}
+@keyframes anim1{
+  100%{
+      stroke-dashoffset:324 ;
+  }
+}
+@keyframes anim2{
+  100%{
+      stroke-dashoffset:330 ;
+  }
+}
+@keyframes anim3{
+  100%{
+      stroke-dashoffset:355 ;
+  }
+}
+@keyframes anim4{
+  100%{
+      stroke-dashoffset:350 ;
+  }
+}
+@keyframes anim5{
+  100%{
+      stroke-dashoffset:350 ;
+  }
+}
+@keyframes anim6{
+  100%{
+      stroke-dashoffset:345 ;
+  }
+}
+  @keyframes anim7{
+    100%{
+        stroke-dashoffset:345 ;
+    }
+  }
+  @keyframes anim8{
+    100%{
+        stroke-dashoffset:370 ;
+    }
+  }
+  @keyframes anim9{
+    100%{
+        stroke-dashoffset:380 ;
+    }
+  }
+  @keyframes anim10{
+    100%{
+        stroke-dashoffset:380 ;
+    }
+  }
+  @keyframes anim11{
+    100%{
+        stroke-dashoffset:375 ;
+    }
+} @keyframes anim12{
+  100%{
+      stroke-dashoffset:370 ;
+  }
+}
+.experince{
+  width: 100%;
+  height: 400px;
+}
+.exper{
+  font-size: 30px;
+  color: #636060;
+  text-transform: capitalize;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 20px;
+}
+ 
+
+.leftexper{
+  float: left;
+  width: 50%;
+ text-align: center; 
+  
+  border-right: 2px solid rgba(148, 143, 143, 0.301);
+}
+.leftexperJs{
+  border-right: 2px solid #fff;
+
+}
+.leftexper div:nth-child(1){
+  font-size: 25px;
+  color: #636060;
+  text-transform: capitalize;
+  font-weight: 600;
+  margin-bottom: 10px;
+
+}
+.rightexper{
+  float: left;
+  width: 50%;
+  text-align: center; 
+  
+}
+.rightexper div:nth-child(1){
+  font-size: 25px;
+  color: #636060;
+  text-transform: capitalize;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.detexper{
+  font-size: 20px;
+  color: #636060;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+.proj{
+  font-size: 16px;
+  color: #636060;
+  text-transform: capitalize;
+  font-weight: 500;
+  cursor: pointer;
+}
+.portf{
+  width: 100%;
+  height: 650px;
+  
+}
+.alignport{
+  font-size: 30px;
+  color: #636060;
+  text-transform: capitalize;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.alignport2{
+  font-size: 20px;
+  color: #636060;
+  text-transform: capitalize;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.nameproj{
+  font-size: 20px;
+  color: #636060;
+  text-transform: capitalize;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.projects{
+  display: flex;
+  justify-content: center;
+
+}
+.change{
+  width: 300px;
+  height:520px ;
+  align-items: stretch;
+}
+.orange{
+  width: 90%;
+  height:400px ;
+  box-shadow: 0px 0px 13px 3px black;;
+}
+.orange:hover{
+  width: 95%;
+  height:440px ;
+  cursor: pointer;
+}
+footer{
+  width: 100%;
+  height: 270px;
+  background-color: #3f3f3f;
+}
+.foot{
+  width: 90%;
+  height: 270px;
+
+  margin-left: 64px;
+  color: #fff;
+
+}
+.footInfo{
+  font-size: 20px;
+  text-transform: capitalize;
+  font-weight: 200;
+  font-family: 'Prata', serif;
+  font-family: 'STIX Two Text', serif;
+}
+.footgmail{
+  font-size: 17px;
+  color: #fff;
+  margin-top: 20px;
+
+}
+#fgmail{
+  color: #fff;
+  font-size: 17px;
+}
+.place{
+  font-size: 17px;
+  color: #fff;
+  text-transform: capitalize;
+  font-weight: 200;
+  font-family: 'Prata', serif;
+  font-family: 'STIX Two Text', serif;
+}
+
+
+@media only screen and (max-width: 1200px){
+
+  .main{
+    width: 100%;
+    height: 500px;
+    margin: 0px;
+}
+.top{
+    margin:0px 0px 0px 0px;
+    width: 100%;
+    text-transform: capitalize;
+}
+.name{
+    float: left;
+    font-size: 25px;
+    text-transform: capitalize;
+    margin-left: 10px;
+    color: #837c7c;
+    font-family: 'Prata', serif;
+    font-family: 'STIX Two Text', serif;
+}
+.right{
+    float: right;
+    margin: 4px 0px 10px 0px;
+}
+.details{
+    display: inline-block;
+    font-size: 18px;
+    margin: 0  14px;
+    color: #837c7c;
+    font-family: 'Prata', serif;
+    font-family: 'STIX Two Text', serif;
+    cursor: pointer;
+}
+
+.details:hover{
+    color: #c72640;
+}
+.box {
+  position: relative;
+  width: 50px;
+  border-radius: 25px;
+  height: 20px;
+  box-shadow: 0 0 3px #707070 inset;
+  cursor: pointer;
+  transition:all .2s ease-in-out;
+  }
+  .fa-sun-o{
+  position: absolute;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    top: 1px;
+    right: 0px;
+    color:#921b2f;
+    border-radius: 50%;
+    box-shadow:  inset -2px -3px 3px 0px #707070;
+    font-size: 17px;
+    transition:all .3s ease-in-out;
+    width:22px;
+    height:22px;
+    background-color:#fff;
+  }
+  
+  .name2{
+      margin-top: 100px;
+      float: left;
+      width: 40%;
+      margin-left: 20px;
+      font-family: 'Prata', serif;
+      font-family: 'STIX Two Text', serif;
+     
+  }
+  .intro{
+      font-size: 32px;
+      color: #837c7c;
+      font-weight: 800;
+      text-transform: capitalize;
+
+
+  }
+  .git span{
+      font-size: 20px;
+      color: #837c7c;
+      text-transform: capitalize;
+
+  }
+  .fa-github{
+      font-size: 20px;
+      color:#c72640;
+      margin-right: 10px;
+  }
+  .fa-github:hover{
+    color: #921b2f;
+    cursor: pointer;
+  }
+  #gmail{
+    font-size: 20px;
+    color:#c72640;
+    margin-right: 10px;
+  }
+  .fa-envelope:hover{
+    color: #921b2f;
+    cursor: pointer;
+  }
+  .gmail span{
+    font-size: 20px;
+    color: #837c7c;
+  }
+  .front{
+      font-size: 20px;
+      color: #636060;
+      text-transform: capitalize;
+      font-weight: 500;
+
+
+  }
+  .btncon{
+    width: 200px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    font-size: 17px;
+    font-weight: 600;
+    margin: 20px 0px 0px 40px;
+    color: white;
+    cursor: pointer;
+    background-color: #c72640;
+    text-transform: capitalize;
+  } 
+  .btncon:hover{
+    background-color: #921b2f;
+    
+  }
+  .btncon:focus{
+    outline: none;
+  }
+  .pic{
+    float: right;
+    width: 40%;
+    
+  }
+  .me{
+    width: 320px;
+    height: 400px;
+    margin-top: 80px;  
+    border-radius: 20%;
+    opacity: .8;
+  }
+  .me:hover{
+    opacity: 1;
+  }
+  .about{
+    margin-top: 100px;
+    width: 100%;
+    height: 400px;
+    font-family: 'Prata', serif;
+    font-family: 'STIX Two Text', serif;
+  
+  
+  }
+  .int{
+    
+     font-size: 19px;  
+     text-align: center;
+     color: #636060; 
+     text-transform: capitalize;
+     font-weight: 600
+  }
+  .parag{
+    font-size: 30px;
+      color: #636060;
+      text-transform: capitalize;
+      font-weight: 600;
+      text-align: center;
+ 
+  }
+  .detail{
+    font-size: 20px;
+    color: #837c7c;
+    width: 80%;
+    margin-left: 50px;
+    text-transform: capitalize;
+  }
+  .skills{
+    width: 100%;
+    height: 600px;
+   }
+  
+   
+   .skill{
+     font-size: 30px;
+     color: #636060;
+     text-transform: capitalize;
+     font-weight: 600;
+     text-align: center;
+   }
+   .skill2{
+     font-size: 20px;
+     color: #636060;
+     text-transform: capitalize;
+     font-weight: 600;
+     text-align: center;
+   }
+   .myskills{
+     width: 100%;
+     height: 400px;
+     text-align: center;
+     margin-top: 50px;
+ 
+   }
+   .ownskills{
+     float: left;
+     width: 30%;
+     height: 350px;
+     margin: 0px 10px 0px 12px;
+     font-size: 20px;
+     color: #636060;
+     text-transform: capitalize;
+     font-weight: 600;
+     box-sizing: border-box;
+   }
+   .fa-code{
+     font-size: 22px;
+     display: inline;
+   }
+   #arrowdown{
+     font-size: 20px;
+     color: #636060;
+     margin-left: 9px;
+     display: none;
+     
+   }
+   #arrowright{
+     font-size: 20px;
+     color: #636060;
+     margin-left: 9px;
+    
+     
+   }
+   #arrowdown2{
+     font-size: 20px;
+     color: #636060;
+     margin-left: 9px;
+     display: none;
+     
+   }
+   #arrowright2{
+     font-size: 20px;
+     color: #636060;
+     margin-left: 9px;
+    
+     
+   }
+   #arrowdown3{
+     font-size: 20px;
+     color: #636060;
+     margin-left: 9px;
+     display: none;
+     
+   }
+   #arrowright3{
+     font-size: 20px;
+     color: #636060;
+     margin-left: 9px;
+    
+     
+   }
+   .detskill{
+     display: block;
+     margin-bottom: 42px;
+     cursor: pointer;
+   }
+ 
+ .design{
+   width: 30px ;
+   height: 30px;
+ }
+ .skillcircle{
+   width: 120px;
+   height: 120px;
+   display: inline-flex;
+   margin: 10px 0 0 10px;
+   
+ 
+ }
+ .allcircle{
+   display: none;
+ }
+ .allcircle2{
+   display: none;
+ }
+ #allcircle3{
+   display:none;
+ }
+ .skillcircle2{
+   width: 120px;
+   height: 120px;
+   display: inline-flex;
+   margin: 10px 0 0 10px;
+   
+ 
+ }
+ .skillcircle3{
+   width: 120px;
+   height: 120px;
+   display: inline-flex;
+   margin: 10px 0 0 10px;
+   
+ 
+ }
+ .outer{
+   width: 58px;
+   height: 58px;
+   border-radius: 50%;
+   position: relative;
+   padding: 10px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   box-shadow: -1px 3px 10px -1px rgb(0 0 0 / 15%), 6px 6px 10px -1px rgb(255 255 255 / 70%);
+ 
+ }
+ 
+ .number{
+   color:black;
+   font-size: 17px;
+   font-weight: 500;
+   color: #636060;
+ }
+ svg{
+   position: absolute;
+   top: -51px;
+   left: -50px;
+ }
+ .circle1 ,.circle2,.circle3,.circle4,.circle5,.circle6,.circle7 ,.circle8,.circle9,.circle10,.circle11,.circle12{
+   fill: none;
+   stroke:#921b2f;
+   stroke-width: 6px;
+   stroke-dasharray: 472;
+   stroke-dashoffset:472 ;
+ }
+ .circle1{
+   animation: anim1 1s linear forwards;
+ 
+ }
+ .circle2{
+   animation: anim2 1s linear forwards;
+ 
+ }
+ .circle3{
+   animation: anim3 1s linear forwards;
+ 
+ }
+ .circle4{
+   animation: anim4 1s linear forwards;
+ 
+ }
+ .circle5{
+   animation: anim5 1s linear forwards;
+ 
+ }
+ .circle6{
+   animation: anim6 1s linear forwards;
+ 
+ }
+ .circle7{
+   animation: anim7 1s linear forwards;
+ 
+ }
+ .circle8{
+   animation: anim8 1s linear forwards;
+ 
+ }
+ .circle9{
+   animation: anim9 1s linear forwards;
+ 
+ }
+ .circle10{
+   animation: anim10 1s linear forwards;
+ 
+ }
+ .circle11{
+   animation: anim11 1s linear forwards;
+ 
+ }
+ .circle12{
+   animation: anim12 1s linear forwards;
+ 
+ }
+ 
+ .skillname{
+   font-size: 17px;
+   position: absolute;
+   top: 60px;
+ }
+ @keyframes anim1{
+   100%{
+       stroke-dashoffset:324 ;
+   }
+ }
+ @keyframes anim2{
+   100%{
+       stroke-dashoffset:330 ;
+   }
+ }
+ @keyframes anim3{
+   100%{
+       stroke-dashoffset:355 ;
+   }
+ }
+ @keyframes anim4{
+   100%{
+       stroke-dashoffset:350 ;
+   }
+ }
+ @keyframes anim5{
+   100%{
+       stroke-dashoffset:350 ;
+   }
+ }
+ @keyframes anim6{
+   100%{
+       stroke-dashoffset:345 ;
+   }
+ }
+   @keyframes anim7{
+     100%{
+         stroke-dashoffset:345 ;
+     }
+   }
+   @keyframes anim8{
+     100%{
+         stroke-dashoffset:370 ;
+     }
+   }
+   @keyframes anim9{
+     100%{
+         stroke-dashoffset:380 ;
+     }
+   }
+   @keyframes anim10{
+     100%{
+         stroke-dashoffset:380 ;
+     }
+   }
+   @keyframes anim11{
+     100%{
+         stroke-dashoffset:375 ;
+     }
+ } @keyframes anim12{
+   100%{
+       stroke-dashoffset:370 ;
+   }
+ }
+ .experince{
+  width: 100%;
+  height: 300px;
+}
+.exper{
+  font-size: 30px;
+  color: #636060;
+  text-transform: capitalize;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 20px;
+
+
+}
+.leftexper{
+  float: left;
+  width: 50%;
+ text-align: center; 
+  
+  border-right: 2px solid rgba(148, 143, 143, 0.301);
+}
+.leftexperJs{
+  border-right: 2px solid #fff;
+
+}
+.leftexper div:nth-child(1){
+  font-size: 25px;
+  color: #636060;
+  text-transform: capitalize;
+  font-weight: 600;
+  margin-bottom: 10px;
+
+}
+.rightexper{
+  float: left;
+  width: 50%;
+  text-align: center; 
+  
+}
+.rightexper div:nth-child(1){
+  font-size: 25px;
+  color: #636060;
+  text-transform: capitalize;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.detexper{
+  font-size: 20px;
+  color: #636060;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+.proj{
+  font-size: 16px;
+  color: #636060;
+  text-transform: capitalize;
+  font-weight: 500;
+  cursor: pointer;
+}
+.portf{
+  width: 100%;
+  height: 640px;
+  
+}
+.alignport{
+  font-size: 30px;
+  color: #636060;
+  text-transform: capitalize;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.alignport2{
+  font-size: 20px;
+  color: #636060;
+  text-transform: capitalize;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.nameproj{
+  font-size: 20px;
+  color: #636060;
+  text-transform: capitalize;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.projects{
+  display: flex;
+  justify-content: center;
+  margin-left: 24px;
+
+}
+.change{
+  width: 420px;
+  height:520px ;
+
+}
+.orange{
+  width: 90%;
+  height:400px ;
+  box-shadow: 0px 0px 13px 3px black;;
+}
+.orange:hover{
+  width: 95%;
+  height:440px ;
+  cursor: pointer;
+}
+footer{
+  width: 100%;
+  height: 270px;
+  background-color: #3f3f3f;
+}
+.foot{
+  width: 90%;
+  height: 270px;
+
+  margin-left: 64px;
+  color: #fff;
+
+}
+.footInfo{
+  font-size: 20px;
+  text-transform: capitalize;
+  font-weight: 200;
+  font-family: 'Prata', serif;
+  font-family: 'STIX Two Text', serif;
+}
+.footgmail{
+  font-size: 17px;
+  color: #fff;
+  margin-top: 20px;
+
+}
+#fgmail{
+  color: #fff;
+  font-size: 17px;
+}
+.place{
+  font-size: 17px;
+  color: #fff;
+  text-transform: capitalize;
+  font-weight: 200;
+  font-family: 'Prata', serif;
+  font-family: 'STIX Two Text', serif;
+}
+
+
+}
+@media only screen and (max-width: 902px){
+
+  .main{
+    width: 100%;
+    height: 500px;
+    margin: 0px;
+}
+.top{
+    margin:0px 0px 0px 0px;
+    width: 100%;
+    text-transform: capitalize;
+}
+.name{
+    float: none;
+    display: block;
+    text-align: center;
+    font-size: 25px;
+    text-transform: capitalize;
+    color: #837c7c;
+    font-family: 'Prata', serif;
+    font-family: 'STIX Two Text', serif;
+}
+.right{
+    float:none;
+    display: block;
+    margin: 4px 0px 10px 0px;
+    text-align: center;
+}
+.details{
+    display: inline-block;
+    font-size: 14px;
+    margin: 0  14px;
+
+    color: #837c7c;
+    font-family: 'Prata', serif;
+    font-family: 'STIX Two Text', serif;
+    cursor: pointer;
+}
+
+.details:hover{
+    color: #c72640;
+}
+.box {
+  top:6px;
+  position: relative;
+  width: 40px;
+  border-radius: 25px;
+  height: 20px;
+  box-shadow: 0 0 3px #707070 inset;
+  cursor: pointer;
+  transition:all .2s ease-in-out;
+  }
+  .fa-sun-o{
+  position: absolute;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    top: 1px;
+    right: 0px;
+    color:#921b2f;
+    border-radius: 50%;
+    box-shadow:  inset -2px -3px 3px 0px #707070;
+    font-size: 17px;
+    transition:all .3s ease-in-out;
+    width:20px;
+    height:20px;
+    background-color:#fff;
+  }
+  
+  .name2{
+      margin-top: 100px;
+      float: left;
+      width: 40%;
+      margin-left: 20px;
+      font-family: 'Prata', serif;
+      font-family: 'STIX Two Text', serif;
+     
+  }
+  .intro{
+      font-size: 27px;
+      color: #837c7c;
+      font-weight: 700;
+      text-transform: capitalize;
+
+
+  }
+  .git span{
+      font-size: 17px;
+      color: #837c7c;
+      text-transform: capitalize;
+
+  }
+  .fa-github{
+      font-size: 17px;
+      color:#c72640;
+      margin-right: 10px;
+  }
+  .fa-github:hover{
+    color: #921b2f;
+    cursor: pointer;
+  }
+  #gmail{
+    font-size: 17px;
+    color:#c72640;
+    margin-right: 10px;
+  }
+  .fa-envelope:hover{
+    color: #921b2f;
+    cursor: pointer;
+  }
+  .gmail span{
+    font-size: 17px;
+    color: #837c7c;
+  }
+  .front{
+      font-size: 20px;
+      color: #636060;
+      text-transform: capitalize;
+      font-weight: 500;
+
+
+  }
+  .btncon{
+    width: 170px;
+    height: 35px;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 20px 0px 0px 40px;
+    color: white;
+    cursor: pointer;
+    background-color: #c72640;
+    text-transform: capitalize;
+  } 
+  .btncon:hover{
+    background-color: #921b2f;
+    
+  }
+  .btncon:focus{
+    outline: none;
+  }
+  .pic{
+    float: right;
+    width: 40%;
+    
+  }
+  .me{
+    width: 88%;
+    height:300px;
+    margin-top: 90px;  
+    border-radius: 20%;
+    opacity: .8;
+  }
+  .me:hover{
+    opacity: 1;
+  }
+  .about{
+    margin-top: 100px;
+    width: 100%;
+    height: 400px;
+    font-family: 'Prata', serif;
+    font-family: 'STIX Two Text', serif;
+  
+  
+  }
+  .int{
+    
+     font-size: 19px;  
+     text-align: center;
+     color: #636060; 
+     text-transform: capitalize;
+     font-weight: 600
+  }
+  .parag{
+    font-size: 30px;
+      color: #636060;
+      text-transform: capitalize;
+      font-weight: 600;
+      text-align: center;
+ 
+  }
+  .detail{
+    font-size: 20px;
+    color: #837c7c;
+    width: 90%;
+    margin-left: 50px;
+    text-transform: capitalize;
+  }
+  .skills{
+    width: 100%;
+    height: 1200px;
+    margin: 0px auto;
+   }
+  
+   
+   .skill{
+     font-size: 30px;
+     color: #636060;
+     text-transform: capitalize;
+     font-weight: 600;
+     text-align: center;
+   }
+   .skill2{
+     font-size: 20px;
+     color: #636060;
+     text-transform: capitalize;
+     font-weight: 600;
+     text-align: center;
+   }
+   .myskills{
+     width: 100%;
+     height: 400px;
+     text-align: center;
+     margin-top: 50px;
+ 
+   }
+   .ownskills{
+     float: none;
+     display: block;
+     width: 80%;
+     font-size: 20px;
+     color: #636060;
+     text-transform: capitalize;
+     font-weight: 600;
+    margin-left: 67px;
+   }
+   .fa-code{
+     font-size: 22px;
+     display: inline;
+   }
+   #arrowdown{
+     font-size: 20px;
+     color: #636060;
+     margin-left: 9px;
+     display: none;
+     
+   }
+   #arrowright{
+     font-size: 20px;
+     color: #636060;
+     margin-left: 9px;
+    
+     
+   }
+   #arrowdown2{
+     font-size: 20px;
+     color: #636060;
+     margin-left: 9px;
+     display: none;
+     
+   }
+   #arrowright2{
+     font-size: 20px;
+     color: #636060;
+     margin-left: 9px;
+    
+     
+   }
+   #arrowdown3{
+     font-size: 20px;
+     color: #636060;
+     margin-left: 9px;
+     display: none;
+     
+   }
+   #arrowright3{
+     font-size: 20px;
+     color: #636060;
+     margin-left: 9px;
+    
+     
+   }
+   .detskill{
+     display: block;
+     margin-bottom: 42px;
+     cursor: pointer;
+   }
+ 
+ .design{
+   width: 30px ;
+   height: 30px;
+ }
+ .skillcircle{
+   width: 120px;
+   height: 120px;
+   display: inline-flex;
+   margin: 10px 0 0 10px;
+   
+ 
+ }
+ .allcircle{
+   display: none;
+ }
+ .allcircle2{
+   display: none;
+ }
+ #allcircle3{
+   display:none;
+ }
+ .skillcircle2{
+   width: 120px;
+   height: 120px;
+   display: inline-flex;
+   margin: 10px 0 0 10px;
+   
+ 
+ }
+ .skillcircle3{
+   width: 120px;
+   height: 120px;
+   display: inline-flex;
+   margin: 10px 0 0 10px;
+   
+ 
+ }
+ .outer{
+   width: 58px;
+   height: 58px;
+   border-radius: 50%;
+   position: relative;
+   padding: 10px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   box-shadow: -1px 3px 10px -1px rgb(0 0 0 / 15%), 6px 6px 10px -1px rgb(255 255 255 / 70%);
+ 
+ }
+ 
+ .number{
+   color:black;
+   font-size: 17px;
+   font-weight: 500;
+   color: #636060;
+ }
+ svg{
+   position: absolute;
+   top: -51px;
+   left: -50px;
+ }
+ .circle1 ,.circle2,.circle3,.circle4,.circle5,.circle6,.circle7 ,.circle8,.circle9,.circle10,.circle11,.circle12{
+   fill: none;
+   stroke:#921b2f;
+   stroke-width: 6px;
+   stroke-dasharray: 472;
+   stroke-dashoffset:472 ;
+ }
+ .circle1{
+   animation: anim1 1s linear forwards;
+ 
+ }
+ .circle2{
+   animation: anim2 1s linear forwards;
+ 
+ }
+ .circle3{
+   animation: anim3 1s linear forwards;
+ 
+ }
+ .circle4{
+   animation: anim4 1s linear forwards;
+ 
+ }
+ .circle5{
+   animation: anim5 1s linear forwards;
+ 
+ }
+ .circle6{
+   animation: anim6 1s linear forwards;
+ 
+ }
+ .circle7{
+   animation: anim7 1s linear forwards;
+ 
+ }
+ .circle8{
+   animation: anim8 1s linear forwards;
+ 
+ }
+ .circle9{
+   animation: anim9 1s linear forwards;
+ 
+ }
+ .circle10{
+   animation: anim10 1s linear forwards;
+ 
+ }
+ .circle11{
+   animation: anim11 1s linear forwards;
+ 
+ }
+ .circle12{
+   animation: anim12 1s linear forwards;
+ 
+ }
+ 
+ .skillname{
+   font-size: 17px;
+   position: absolute;
+   top: 60px;
+ }
+ @keyframes anim1{
+   100%{
+       stroke-dashoffset:324 ;
+   }
+ }
+ @keyframes anim2{
+   100%{
+       stroke-dashoffset:330 ;
+   }
+ }
+ @keyframes anim3{
+   100%{
+       stroke-dashoffset:355 ;
+   }
+ }
+ @keyframes anim4{
+   100%{
+       stroke-dashoffset:350 ;
+   }
+ }
+ @keyframes anim5{
+   100%{
+       stroke-dashoffset:350 ;
+   }
+ }
+ @keyframes anim6{
+   100%{
+       stroke-dashoffset:345 ;
+   }
+ }
+   @keyframes anim7{
+     100%{
+         stroke-dashoffset:345 ;
+     }
+   }
+   @keyframes anim8{
+     100%{
+         stroke-dashoffset:370 ;
+     }
+   }
+   @keyframes anim9{
+     100%{
+         stroke-dashoffset:380 ;
+     }
+   }
+   @keyframes anim10{
+     100%{
+         stroke-dashoffset:380 ;
+     }
+   }
+   @keyframes anim11{
+     100%{
+         stroke-dashoffset:375 ;
+     }
+ } @keyframes anim12{
+   100%{
+       stroke-dashoffset:370 ;
+   }
+ }
+ .experince{
+  width: 100%;
+  height: 300px;
+}
+.exper{
+  font-size: 30px;
+  color: #636060;
+  text-transform: capitalize;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.leftexper{
+  float: left;
+  width: 50%;
+ text-align: center; 
+  
+  border-right: 2px solid rgba(148, 143, 143, 0.301);
+}
+.leftexperJs{
+  border-right: 2px solid #fff;
+
+}
+.leftexper div:nth-child(1){
+  font-size: 25px;
+  color: #636060;
+  text-transform: capitalize;
+  font-weight: 600;
+  margin-bottom: 10px;
+
+}
+.rightexper{
+  float: left;
+  width: 50%;
+  text-align: center; 
+  
+}
+.rightexper div:nth-child(1){
+  font-size: 25px;
+  color: #636060;
+  text-transform: capitalize;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.detexper{
+  font-size: 20px;
+  color: #636060;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+.proj{
+  font-size: 16px;
+  color: #636060;
+  text-transform: capitalize;
+  font-weight: 500;
+  cursor: pointer;
+}
+.portf{
+  width: 100%;
+  height: 1500px;
+  text-align: center;
+  
+}
+.alignport{
+  font-size: 30px;
+  color: #636060;
+  text-transform: capitalize;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.alignport2{
+  font-size: 20px;
+  color: #636060;
+  text-transform: capitalize;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.nameproj{
+  font-size: 20px;
+  color: #636060;
+  text-transform: capitalize;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.projects{
+  display: inline-block;
+  margin: auto;
+
+}
+.change{
+  width: 94%;
+  height:450px ;
+
+}
+.orange{
+  width: 95%;
+  height:300px ;
+  box-shadow: 0px 0px 13px 3px black;;
+}
+.orange:hover{
+  width: 97%;
+  height:330px ;
+  margin-bottom: 40px;
+  cursor: pointer;
+}
+footer{
+  width: 100%;
+  height: 200px;
+  background-color: #3f3f3f;
+}
+.foot{
+  width: 90%;
+  height: 200px;
+  margin: 0px;
+  color: #fff;
+  position: relative;
+  left: 20px;
+
+}
+.footInfo{
+  font-size: 20px;
+  text-transform: capitalize;
+  font-weight: 200;
+  font-family: 'Prata', serif;
+  font-family: 'STIX Two Text', serif;
+}
+.footgmail{
+  font-size: 17px;
+  color: #fff;
+  margin-top: 20px;
+
+}
+#fgmail{
+  color: #fff;
+  font-size: 17px;
+}
+.place{
+  font-size: 17px;
+  color: #fff;
+  text-transform: capitalize;
+  font-weight: 200;
+  font-family: 'Prata', serif;
+  font-family: 'STIX Two Text', serif;
+}
+
+
+}
+@media only screen and (max-width: 519px){
+  .main{
+    width: 100%;
+    height: 500px;
+    margin: 0px;
+}
+.top{
+    margin:0px 0px 0px 0px;
+    width: 100%;
+    text-transform: capitalize;
+}
+.name{
+    float: none;
+    display: block;
+    text-align: center;
+    font-size: 25px;
+    text-transform: capitalize;
+    color: #837c7c;
+    font-family: 'Prata', serif;
+    font-family: 'STIX Two Text', serif;
+}
+.right{
+    float:none;
+    display: block;
+    margin: 4px 0px 10px 0px;
+    text-align: center;
+}
+.details{
+    display: inline-block;
+    font-size: 14px;
+    margin: 0  14px;
+
+    color: #837c7c;
+    font-family: 'Prata', serif;
+    font-family: 'STIX Two Text', serif;
+    cursor: pointer;
+}
+
+.details:hover{
+    color: #c72640;
+}
+.box {
+  top:6px;
+  position: relative;
+  width: 40px;
+  border-radius: 25px;
+  height: 20px;
+  box-shadow: 0 0 3px #707070 inset;
+  cursor: pointer;
+  transition:all .2s ease-in-out;
+  }
+  .fa-sun-o{
+  position: absolute;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    top: 1px;
+    right: 0px;
+    color:#921b2f;
+    border-radius: 50%;
+    box-shadow:  inset -2px -3px 3px 0px #707070;
+    font-size: 17px;
+    transition:all .3s ease-in-out;
+    width:20px;
+    height:20px;
+    background-color:#fff;
+  }
+  
+  .name2{
+      margin-top: 100px;
+      float: left;
+      width: 55%;
+      margin-left: 20px;
+      font-family: 'Prata', serif;
+      font-family: 'STIX Two Text', serif;
+     
+  }
+  .intro{
+      font-size: 24px;
+      color: #837c7c;
+      font-weight: 700;
+      text-transform: capitalize;
+
+
+  }
+  .git span{
+      font-size: 15px;
+      color: #837c7c;
+      text-transform: capitalize;
+
+  }
+  .fa-github{
+      font-size: 16px;
+      color:#c72640;
+      margin-right: 10px;
+  }
+  .fa-github:hover{
+    color: #921b2f;
+    cursor: pointer;
+  }
+  #gmail{
+    font-size: 16px;
+    color:#c72640;
+    margin-right: 10px;
+  }
+  #gmail:hover{
+    color: #921b2f;
+    cursor: pointer;
+  }
+  .gmail span{
+    font-size: 15px;
+    color: #837c7c;
+  }
+  .front{
+      font-size: 20px;
+      color: #636060;
+      text-transform: capitalize;
+      font-weight: 500;
+
+
+  }
+  .btncon{
+    width: 150px;
+    height: 30px;
+    border: none;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: 600;
+    margin: 20px 0px 0px 40px;
+    color: white;
+    cursor: pointer;
+    background-color: #c72640;
+    text-transform: capitalize;
+  } 
+  .btncon:hover{
+    background-color: #921b2f;
+    
+  }
+  .btncon:focus{
+    outline: none;
+  }
+  .pic{
+    float: right;
+    width: 37%;
+    
+  }
+  .me{
+    width: 80%;
+    height:280px;
+    margin-top: 90px;  
+    border-radius: 20%;
+    opacity: .8;
+  }
+  .me:hover{
+    opacity: 1;
+  }
+  .about{
+    margin-top: 100px;
+    width: 100%;
+    height: 400px;
+    font-family: 'Prata', serif;
+    font-family: 'STIX Two Text', serif;
+  
+  
+  }
+  .int{
+    
+     font-size: 19px;  
+     text-align: center;
+     color: #636060; 
+     text-transform: capitalize;
+     font-weight: 600
+  }
+  .parag{
+    font-size: 30px;
+      color: #636060;
+      text-transform: capitalize;
+      font-weight: 600;
+      text-align: center;
+ 
+  }
+  .detail{
+    font-size: 20px;
+    color: #837c7c;
+    width: 95%;
+    margin: auto;
+    text-transform: capitalize;
+
+  }
+  .skills{
+    width: 100%;
+    height: 1400px;
+    margin: 0px auto;
+   }
+  
+   
+   .skill{
+     font-size: 30px;
+     color: #636060;
+     text-transform: capitalize;
+     font-weight: 600;
+     text-align: center;
+   }
+   .skill2{
+     font-size: 20px;
+     color: #636060;
+     text-transform: capitalize;
+     font-weight: 600;
+     text-align: center;
+   }
+   .myskills{
+     width: 100%;
+     height: 550px;
+     text-align: center;
+     margin-top: 50px;
+ 
+   }
+   .ownskills{
+     float: none;
+     display: block;
+     width: 80%;
+     font-size: 20px;
+     color: #636060;
+     text-transform: capitalize;
+     font-weight: 600;
+     margin-bottom: 100px;
+   }
+   .fa-code{
+     font-size: 22px;
+     display: inline;
+   }
+   #arrowdown{
+     font-size: 20px;
+     color: #636060;
+     margin-left: 9px;
+     display: none;
+     
+   }
+   #arrowright{
+     font-size: 20px;
+     color: #636060;
+     margin-left: 9px;
+    
+     
+   }
+   #arrowdown2{
+     font-size: 20px;
+     color: #636060;
+     margin-left: 9px;
+     display: none;
+     
+   }
+   #arrowright2{
+     font-size: 20px;
+     color: #636060;
+     margin-left: 9px;
+    
+     
+   }
+   #arrowdown3{
+     font-size: 20px;
+     color: #636060;
+     margin-left: 9px;
+     display: none;
+     
+   }
+   #arrowright3{
+     font-size: 20px;
+     color: #636060;
+     margin-left: 9px;
+    
+     
+   }
+   .detskill{
+     display: block;
+     margin-bottom: 42px;
+     cursor: pointer;
+   }
+ 
+ .design{
+   width: 30px ;
+   height: 30px;
+ }
+ .skillcircle{
+   width: 120px;
+   height: 120px;
+   display: inline-flex;
+   margin: 10px 0 0 10px;
+   
+ 
+ }
+ .allcircle{
+   display: none;
+ }
+ .allcircle2{
+   display: none;
+ }
+ #allcircle3{
+   display:none;
+ }
+ .skillcircle2{
+   width: 120px;
+   height: 120px;
+   display: inline-flex;
+   margin: 10px 0 0 10px;
+   
+ 
+ }
+ .skillcircle3{
+   width: 120px;
+   height: 120px;
+   display: inline-flex;
+   margin: 10px 0 0 10px;
+   
+ 
+ }
+ .outer{
+   width: 58px;
+   height: 58px;
+   border-radius: 50%;
+   position: relative;
+   padding: 10px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   box-shadow: -1px 3px 10px -1px rgb(0 0 0 / 15%), 6px 6px 10px -1px rgb(255 255 255 / 70%);
+ 
+ }
+ 
+ .number{
+   color:black;
+   font-size: 17px;
+   font-weight: 500;
+   color: #636060;
+ }
+ svg{
+   position: absolute;
+   top: -51px;
+   left: -50px;
+ }
+ .circle1 ,.circle2,.circle3,.circle4,.circle5,.circle6,.circle7 ,.circle8,.circle9,.circle10,.circle11,.circle12{
+   fill: none;
+   stroke:#921b2f;
+   stroke-width: 6px;
+   stroke-dasharray: 472;
+   stroke-dashoffset:472 ;
+ }
+ .circle1{
+   animation: anim1 1s linear forwards;
+ 
+ }
+ .circle2{
+   animation: anim2 1s linear forwards;
+ 
+ }
+ .circle3{
+   animation: anim3 1s linear forwards;
+ 
+ }
+ .circle4{
+   animation: anim4 1s linear forwards;
+ 
+ }
+ .circle5{
+   animation: anim5 1s linear forwards;
+ 
+ }
+ .circle6{
+   animation: anim6 1s linear forwards;
+ 
+ }
+ .circle7{
+   animation: anim7 1s linear forwards;
+ 
+ }
+ .circle8{
+   animation: anim8 1s linear forwards;
+ 
+ }
+ .circle9{
+   animation: anim9 1s linear forwards;
+ 
+ }
+ .circle10{
+   animation: anim10 1s linear forwards;
+ 
+ }
+ .circle11{
+   animation: anim11 1s linear forwards;
+ 
+ }
+ .circle12{
+   animation: anim12 1s linear forwards;
+ 
+ }
+ 
+ .skillname{
+   font-size: 17px;
+   position: absolute;
+   top: 60px;
+ }
+ @keyframes anim1{
+   100%{
+       stroke-dashoffset:324 ;
+   }
+ }
+ @keyframes anim2{
+   100%{
+       stroke-dashoffset:330 ;
+   }
+ }
+ @keyframes anim3{
+   100%{
+       stroke-dashoffset:355 ;
+   }
+ }
+ @keyframes anim4{
+   100%{
+       stroke-dashoffset:350 ;
+   }
+ }
+ @keyframes anim5{
+   100%{
+       stroke-dashoffset:350 ;
+   }
+ }
+ @keyframes anim6{
+   100%{
+       stroke-dashoffset:345 ;
+   }
+ }
+   @keyframes anim7{
+     100%{
+         stroke-dashoffset:345 ;
+     }
+   }
+   @keyframes anim8{
+     100%{
+         stroke-dashoffset:370 ;
+     }
+   }
+   @keyframes anim9{
+     100%{
+         stroke-dashoffset:380 ;
+     }
+   }
+   @keyframes anim10{
+     100%{
+         stroke-dashoffset:380 ;
+     }
+   }
+   @keyframes anim11{
+     100%{
+         stroke-dashoffset:375 ;
+     }
+ } @keyframes anim12{
+   100%{
+       stroke-dashoffset:370 ;
+   }
+ }
+ .experince{
+  width: 100%;
+  height: 300px;
+}
+.exper{
+  font-size: 30px;
+  color: #636060;
+  text-transform: capitalize;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.leftexper{
+  float: left;
+  width: 50%;
+ text-align: center; 
+  
+  border-right: 2px solid rgba(148, 143, 143, 0.301);
+}
+.leftexperJs{
+  border-right: 2px solid #fff;
+
+}
+.leftexper div:nth-child(1){
+  font-size: 22px;
+  color: #636060;
+  text-transform: capitalize;
+  font-weight: 600;
+  margin-bottom: 10px;
+
+}
+.rightexper{
+  float: left;
+  width: 50%;
+  text-align: center; 
+  
+}
+.rightexper div:nth-child(1){
+  font-size: 22px;
+  color: #636060;
+  text-transform: capitalize;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.detexper{
+  font-size: 17px;
+  color: #636060;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+.proj{
+  font-size: 15px;
+  color: #636060;
+  text-transform: capitalize;
+  font-weight: 500;
+  cursor: pointer;
+}
+.portf{
+  width: 100%;
+  height: 1500px;
+  text-align: center;
+  
+}
+.alignport{
+  font-size: 30px;
+  color: #636060;
+  text-transform: capitalize;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.alignport2{
+  font-size: 20px;
+  color: #636060;
+  text-transform: capitalize;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.nameproj{
+  font-size: 20px;
+  color: #636060;
+  text-transform: capitalize;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.projects{
+  display: inline-block;
+  margin: auto;
+
+}
+.change{
+  width: 100%;
+  text-align: center;
+  height:450px ;
+
+}
+.orange{
+  width: 90%;
+  text-align: center;
+  height:300px ;
+  box-shadow: 0px 0px 13px 3px black;;
+}
+.orange:hover{
+  width: 97%;
+  height:330px ;
+  margin-bottom: 40px;
+  cursor: pointer;
+}
+footer{
+  width: 100%;
+  height: 200px;
+  background-color: #3f3f3f;
+}
+.foot{
+  width: 90%;
+  height: 200px;
+  margin: 0px;
+  color: #fff;
+  position: relative;
+  left: 20px;
+
+}
+.footInfo{
+  font-size: 20px;
+  text-transform: capitalize;
+  font-weight: 200;
+  font-family: 'Prata', serif;
+  font-family: 'STIX Two Text', serif;
+}
+.footgmail{
+  font-size: 17px;
+  color: #fff;
+  margin-top: 20px;
+
+}
+#fgmail{
+  color: #fff;
+  font-size: 17px;
+}
+.place{
+  font-size: 17px;
+  color: #fff;
+  text-transform: capitalize;
+  font-weight: 200;
+  font-family: 'Prata', serif;
+  font-family: 'STIX Two Text', serif;
+}
+
+ 
+}
